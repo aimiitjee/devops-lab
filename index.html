@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="sign-up-page">
+      <form name="user-registration">
+        <div class="container">
+          <div class="form-container">
+            <!-- <form name="user-registration"> -->
+            <section class="form-title">
+              <h1 class="form-title">Sign In</h1>
+            </section>
+            <section class="form-row">
+              <label for="fullName" class="form-row-title">Full Name</label>
+              <input
+                id="fullName"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+            </section>
+            <section class="form-row">
+              <label for="phone" class="form-row-title">Phone Number</label>
+              <input
+                id="phone"
+                type="tel"
+                placeholder="Phone"
+                min="10"
+                max="10"
+                required
+              />
+            </section>
+            <section class="form-row">
+              <label for="userName" class="form-row-title">Username</label>
+              <input
+                id="userName"
+                type="text"
+                placeholder="username"
+                required
+              />
+            </section>
+            <section class="form-row">
+              <label for="email" class="form-row-title">Email</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="email address"
+                required
+              />
+            </section>
+            <section class="form-row">
+              <label class="form-row-title">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="password"
+                min="8"
+                max="32"
+                required
+              />
+            </section>
+            <section class="form-row">
+              <label class="form-row-title">Confirm Password</label>
+              <input
+                type="password"
+                placeholder="password"
+                min="8"
+                max="32"
+                required
+              />
+            </section>
+            <section class="btn-layout">
+              <!-- <button class="btn log-in">Log In</button> -->
+              <button class="btn sign-up">Sign Up</button>
+              <p>Already have an account? <a href="#log-in-page">Log In</a></p>
+            </section>
+            <section>
+              <p class="error-message"></p>
+            </section>
+            <!-- </form> -->
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="log-in-page">
+      <h1>Hello World</h1>
+    </div>
+    <!-- js source code snippet -->
+    <script src="script.js"></script>
+  </body>
+</html>
